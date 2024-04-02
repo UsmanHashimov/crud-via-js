@@ -1,0 +1,58 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#create div{
+    display: flex;
+    align-items: center;
+}
+
+#update div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#delete div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label{
+    padding: 10px 10px;
+    margin: 5px 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

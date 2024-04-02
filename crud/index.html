@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+        <h1>CRUD</h1>
+      <div id="create">
+        <h3>Create</h3>
+        <div>
+          <input type="text" placeholder="Type something" />
+          <button>Create</button>
+        </div>
+      </div>
+
+      <div id="update">
+        <h3>Update</h3>
+        <div>
+            <div>
+                <label for="updateId" style="font-weight: bold;">ID</label>
+                <input type="text" id="updateId" placeholder="Enter id">
+            </div>
+            <div>
+                <label for="updateDescription" style="font-weight: bold;">Updated Item</label>
+                <input type="text" id="updateDescription" placeholder="Type something">
+            </div>
+            <button onclick="updateItem()">Update</button>
+        </div>
+      </div>
+      
+
+      <div id="delete">
+        <h3>Delete</h3>
+        <div>
+            <div>
+                <label for=""  style="font-weight: bold;">ID</label>
+                <input type="text" placeholder="Enter id">
+                <button>Delete</button>
+            </div>
+        </div>
+      </div>
+
+      <div id="readall">
+        <h3>All items</h3>
+        <ul></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
